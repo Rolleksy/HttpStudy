@@ -2,7 +2,6 @@
 #include "router.hpp"
 
 inline void register_delete_routes(){
-    Router::del("/user", [](auto req){
-        return HttpResponse{200, "User deleted"};
-    });
+    // Placeholder for future DELETE routes
+    // User CRUD is handled in user_routes.hpp
 }

@@ -2,7 +2,6 @@
 #include "router.hpp"
 
 inline void register_put_routes(){
-    Router::put("/user", [](auto res) {
-        return HttpResponse{200, "User updated with data: " + res.body};
-    });
+    // Placeholder for future PUT routes
+    // User CRUD is handled in user_routes.hpp
 }
